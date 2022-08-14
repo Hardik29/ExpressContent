@@ -1,82 +1,46 @@
 import React from 'react';
 import Stripe from './Stripe';
+import Qualified from '../Utilites/Qualified1.svg';
+i
+
+function Card({svg, headline, text}) {
+    return (
+        <div class="p-2 md:w-1/3 rounded-lg card group">
+            <div class="flex bg-white p-8 sm:p-12 flex-col text-left">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 mr-3 inline-flex items-center justify-center rounded-full bg-gray-100 text-white flex-shrink-0">
+                    <img class = 'w-8 h-8 group-hover:w-12 ease-in-out duration-500 group-hover:h-12 hover:transition-transform' alt={Qualified} src={Qualified}></img>
+                    </div>
+                    <h2 class="text-gray-900 text-lg title-font font-GorditaMedium">Qualified Team Of Professionals</h2>
+                </div>
+                <div class="">
+                    <p class="leading-relaxed text-base">Our team of writers and editors are always ready to provide quality content, making us the top content writing company in India.</p>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 function Mid() {
     return (
-        <section class="text-gray-700 border-t border-gray-200">
-            <Stripe />
-            <div class="container px-5 mx-auto">
+        <>
+        <Stripe />
+        <section class="text-gray-700  bg-[#FEF8ED] px-12 py-12">
+            <div class="container px-5 mx-auto ">
                 <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
+                    <h1 class="sm:text-3xl text-2xl font-GorditaMedium title-font text-gray-900">Why 1000+ Applicants trust us with their Overseaas Education ?</h1>
                 </div>
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 md:w-1/3">
-                        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                            <div class="flex items-center mb-3">
-                                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                                    </svg>
-                                </div>
-                                <h2 class="text-gray-900 text-lg title-font font-medium">Shooting Stars</h2>
-                            </div>
-                            <div class="flex-grow">
-                                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/3">
-                        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                            <div class="flex items-center mb-3">
-                                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                                        <circle cx="12" cy="7" r="4"></circle>
-                                    </svg>
-                                </div>
-                                <h2 class="text-gray-900 text-lg title-font font-medium">The Catalyzer</h2>
-                            </div>
-                            <div class="flex-grow">
-                                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/3">
-                        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                            <div class="flex items-center mb-3">
-                                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <circle cx="6" cy="6" r="3"></circle>
-                                        <circle cx="6" cy="18" r="3"></circle>
-                                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                                    </svg>
-                                </div>
-                                <h2 class="text-gray-900 text-lg title-font font-medium">Neptune</h2>
-                            </div>
-                            <div class="flex-grow">
-                                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex flex-wrap ">
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
             </div>
         </section>
+        </>
     )
 }
 

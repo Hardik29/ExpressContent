@@ -1,6 +1,5 @@
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
-import Stripe from './Components/Stripe';
 import Mid from './Components/Mid';
 import './App.css';
 
@@ -13,7 +12,7 @@ function App() {
 </section>
 <Mid/>
 
-<section class="text-gray-700 body-font border-t border-gray-200">
+<section class="text-gray-700 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
       <img alt="feature" class="object-cover object-center h-full w-full" src="https://dummyimage.com/600x600/edf2f7/a5afbd"></img>

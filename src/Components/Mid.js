@@ -25,7 +25,7 @@ function Mid() {
     return (
         <>
         <Stripe />
-        <section class="text-gray-700  bg-[#FEF8ED] px-12 py-12">
+        <section class="text-gray-700  bg-[#FEF8ED] py-12">
             <div class="container px-5 mx-auto ">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-3xl text-2xl font-GorditaMedium title-font text-gray-900">Why 1000+ Applicants trust us with their Overseaas Education ?</h1>

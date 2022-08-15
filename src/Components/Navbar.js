@@ -5,7 +5,7 @@ export default function Navbar() {
 
 
     const [goingUp, setGoingUp] = useState(true);
-    const [sideMenu, setsideMenu] = useState();
+    const [sideMenu, setsideMenu] = useState(true);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -26,8 +26,7 @@ export default function Navbar() {
 
     return (
         <div>
-
-            <nav class={`px-2 sm:px-4 py-2.5 bg-[#FADEAC] fixed w-full lg:text-xl z-20 top-0 left-0 font-GorditaRegular ${goingUp ? "" : "shadow-2xl"}`}>
+            <nav class={`px-2 sm:px-4 py-2.5 bg-[#FADEAC] fixed w-full  lg:text-xl z-20 top-0 left-0 font-GorditaRegular ${goingUp ? "" : "shadow-2xl"}`}>
                 <div class="container flex flex-wrap justify-between items-center mx-auto">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src={XpressWriterLogo} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
@@ -35,8 +34,8 @@ export default function Navbar() {
                     </a>
                     <div class="flex md:order-2">
                         <div clas='felx flex-col justify-center items-center '>
-                        <a href="#" class="lg:p-1 lg:hover:bg-white lg:rounded-full py-2 pr-4 pl-3 mx-2 text-white md:rounded-full rounded md:bg-transparent md:text-blue-700 md:p-0 hover:border-2 border-2 border-transparent hover:border-white" aria-current="page">Sign In</a>
-                        <button type="button" class="text-white lg:text-xl bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Get started</button>
+                        <a href="#" class="lg:inline-block  hidden lg:p-1 lg:hover:bg-white lg:rounded-full py-2 pr-4 pl-3 mx-2 text-white md:rounded-full rounded md:bg-transparent md:text-blue-700 md:p-0 hover:border-2 border-2 border-transparent hover:border-white" aria-current="page">Sign In</a>
+                        <button type="button" class="text-white lg:text-xl bg-[#6509DB] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Explore More</button>
                         </div>
                         <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2  text-sm text-gray-500 rounded-lg md:hidden hover:bg-white focus:outline-none focus:ring-2 focus:ring-white group " onClick={()=>{setsideMenu(!sideMenu)}} aria-controls="navbar-sticky" aria-expanded="false" >
                             <span class="sr-only">Open main menu</span>
@@ -67,6 +66,12 @@ export default function Navbar() {
                                 <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0 ">
                                     Contact
                                     <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#" class="lg:hidden block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0 ">
+                                    Sign In
+                                
                                     </a>
                             </li>
                         </ul>

@@ -1,11 +1,11 @@
 import React from 'react';
 import Stripe from './Stripe';
 import Qualified from '../Utilites/Qualified1.svg';
-i
+
 
 function Card({svg, headline, text}) {
     return (
-        <div class="p-2 md:w-1/3 rounded-lg card group">
+        <div class="p-2 md:w-1/3 rounded-lg group">
             <div class="flex bg-white p-8 sm:p-12 flex-col text-left">
                 <div class="flex items-center mb-3">
                     <div class="w-12 h-12 mr-3 inline-flex items-center justify-center rounded-full bg-gray-100 text-white flex-shrink-0">

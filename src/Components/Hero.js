@@ -5,9 +5,8 @@ function Hero() {
   return (
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-[#FADEAC]">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-GorditaMedium">Your Application,  We write
-        </h1>
-        <h1 class="sm:text-4xl text-3xl mb-4 font-bold text-gray-900 font-GorditaBold">Your story of your <span>Sucess</span>
+        
+        <h1 class="sm:text-4xl text-3xl mb-4 font-bold text-gray-900 font-GorditaBold">We write, Your Story of <span className='rounded border-b-4 border-[#6509DB]'>Sucess .</span>
         </h1>
         <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">

@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 .card {
-  background-image: linear-gradient(to top, #6509DB 50%, white 50%);
-  background-size: 100% 200%;
-  background-position: top;
-  transition: background-position 0.2s ease-in-out; /** I've changed the time for demo purposes **/
+  
+  
   color: black;
   box-shadow: -1px 5px 15px -2px rgba(16,110,234,1);
 }
+
+/* background-image: linear-gradient(to top, #6509DB 50%, white 50%);
+  background-size: 100% 200%;
+  background-position: top; */
+/* transition: background-position 0.2s ease-in-out;  */
+  /** I've changed the time for demo purposes **/
 
 .card:hover {
   background-position: bottom;

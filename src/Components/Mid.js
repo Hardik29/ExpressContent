@@ -28,7 +28,7 @@ function Mid() {
         <section class="text-gray-700  bg-[#FEF8ED] py-12">
             <div class="container px-5 mx-auto ">
                 <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-GorditaBold title-font text-gray-900">Why 1000+ Applicants trust us with their Overseaas Education ?</h1>
+                    <h1 class="sm:text-3xl text-2xl font-GorditaBold title-font text-gray-900">Why 1700+ Applicants trust us with their Overseaas Education ?</h1>
                 </div>
                 <div class="flex flex-wrap ">
                     <Card/>

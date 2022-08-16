@@ -32,12 +32,12 @@ function Card() {
 function Services() {
   return (
     <section class="text-gray-700 body-font border-t border-gray-200">
-      <div class="container py-24">
+      <div class="container py-24 px-5 ">
         <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 class="sm:text-3xl text-4xl font-GorditaBold mb-2 text-gray-900">Get Your Application done with Us.</h1>
           <h1 class="sm:text-3xl text-4xl font-GorditaBold mb-2 text-gray-900">Try a service <span class='rounded border-b-4 border-[#6509DB]'>now.</span></h1>
         </div>
-        <div class="flex flex-wrap  justify-center item-center">
+        <div class="flex flex-wrap justify-center item-center ">
           <Card />
           <Card />
           <Card />

@@ -3,20 +3,23 @@ import React from 'react'
 
 function Services() {
     return (
-        <div class="lg:w-1/6 md:w-1/2 w-full px-4 sm:text-left ">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 font-GorditaMedium">CATEGORIES</h2>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+            <h2 class="title-font text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">SOP</h2>
             <nav class="list-none mb-10">
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a class="text-gray-600 hover:text-gray-800">Dimpola Programs SOP</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                    <a class="text-gray-600 hover:text-gray-800">Graduate Proogram SOP</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                    <a class="text-gray-600 hover:text-gray-800">Internship SOP</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a class="text-gray-600 hover:text-gray-800">Refusal SOP</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800">Scholarship SOP</a>
                 </li>
             </nav>
         </div>
@@ -26,9 +29,9 @@ function Services() {
 
 function Footer() {
     return (
-        <footer class="text-gray-700  bg-[#FADEAC] px-5 py-24 font-GorditaRegular ">
+        <footer class="text-gray-700  bg-[#FADEAC] px-5 font-GorditaRegular text-sm">
             <div class="container px-5 py-12 mx-auto">
-                <div class="flex flex-wrap md:text-left sm:text-left text-center -mb-10 -mx-4">
+                <div class="flex flex-wrap justify-center md:text-left sm:text-left text-center -mb-10 -mx-4">
                     <Services />
                     <Services />
                     <Services />
@@ -36,8 +39,111 @@ function Footer() {
                     <Services />
                 </div>
             </div>
-            <div class="border-t border-gray-400 border-dotted flex flex-row h-48">
-                <div class="py-12  px-9">
+            <div class="border-t border-gray-400 border-dotted flex flex-row">
+                <div class="container px-5 py-12 mx-auto">
+                    <div class="flex flex-wrap justify-center md:text-left sm:text-left text-center -mb-10 -mx-4">
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-3 font-GorditaMedium">Company</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">About</a>
+                                </li>
+                            </nav>
+                        </div>
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">Services</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">SOP</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">LOR</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Email</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Resume</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Research Proposal and Papers </a>
+                                </li>
+
+                            </nav>
+                        </div>
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">Address</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800">103, First Floor, Shri Krishna Classic</p>
+                                </li>
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800">AB Rd, above Axis Bank</p>
+                                </li>
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800"> in front of MG Hector Showroom,</p>
+                                </li>
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800">Indore, Madhya Pradesh - 452010</p>
+                                </li>
+                            
+
+                            </nav>
+                            
+                            
+                        </div>
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">Contact US</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800 font-GorditaMedium">For Any Queries</p>
+                                </li>
+                                <li>
+                                    <p class="text-gray-600 hover:text-gray-800 font-GorditaMedium">please connect with us at </p>
+                                </li>
+                                <li>
+                                    <a class="text-black hover:text-gray-800 f">info@admivo.info</a>
+                                </li>
+                                
+                            
+
+                            </nav>
+                            
+                            
+                        </div>
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
+                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">Social</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800 ">Instagram</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800 ">Linkdeln</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800 ">Twitter</a>
+                                </li>
+                                
+                            
+
+                            </nav>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    )
+}
+
+export default Footer
+
+
+
+{/* 
+<div class="py-12  px-9">
                 <div class="lg:w-1/6 md:w-1/2 w-full text-left ">
                     <h2 class="title-font font-GorditaMedium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
                     <nav class="list-none mb-10">
@@ -75,9 +181,4 @@ function Footer() {
                         </a>
                     </span>
                 </div>
-            </div>
-        </footer>
-    )
-}
-
-export default Footer
+            </div> */}

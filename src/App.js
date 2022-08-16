@@ -32,16 +32,7 @@ function App() {
       <Mid />
       <Contacts/>
     <Services/>
-      <section class="text-gray-700 body-font border-t border-gray-200">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
-          </div>
-          <div class="flex flex-wrap -m-2">
-            <Card/>
-          </div>
-        </div>
-      </section>
+     
       
       <section class="text-gray-700 body-font border-t border-gray-200">
         <div class="container px-5 py-24 mx-auto">
@@ -64,3 +55,20 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+{/* <section class="text-gray-700 body-font border-t border-gray-200">
+<div class="container px-5 py-24 mx-auto">
+  <div class="flex flex-col text-center w-full mb-20">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+  </div>
+  <div class="flex flex-wrap -m-2">
+    <Card/>
+  </div>
+</div>
+</section> */}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import XpressWriterLogo from '../Utilites/Xpress-writer-2-1536x3141.svg';
+import XpressWriterLogo from '../Utilites/ExpressWrite1.svg';
 
 export default function Navbar() {
 
@@ -24,6 +24,18 @@ export default function Navbar() {
 
 
 
+    function Items({ItemName}){
+        return(
+            <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 group md:p-0" aria-current="page">
+               {ItemName}
+                <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
+                </a>
+        </li>
+        )
+    }
+
+
     return (
         <div>
             <nav class={`px-2 sm:px-4 py-2.5 bg-[#FADEAC] fixed w-full  lg:text-xl z-20 top-0 left-0 font-GorditaRegular ${goingUp ? "" : "shadow-2xl"}`}>
@@ -44,30 +56,10 @@ export default function Navbar() {
                     </div>
                     <div class={` ${sideMenu ? "hidden" :""} lg:block justify-between items-center w-full md:flex md:w-auto md:order-1 `}>
                         <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0 lg:text-xl ">
-                            <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 group" aria-current="page">
-                                    Home
-                                    <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 group md:p-0">
-                                    About
-                                    <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0">
-                                    Services
-                                    <span className="sm-hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0 ">
-                                    Contact
-                                    <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
-                                    </a>
-                            </li>
+                            <Items ItemName="Home"/>
+                            <Items ItemName="About"/>
+                            <Items ItemName="Services"/>
+                            <Items ItemName="ContactUs"/>
                             <li>
                                 <a href="#" class="lg:hidden block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0 ">
                                     Sign In

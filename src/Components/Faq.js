@@ -3,7 +3,7 @@ import React from 'react'
 
 function DetialsCard({ heading, body }) {
     return (
-        <details class="mb-4 bg-gray-100 rounded">
+        <details class="mb-4 bg-gray-100 rounded bg-gray-200">
             <summary class="text-gray-600 font-semibold py-2 px-4">
                 {heading}
             </summary>
@@ -19,7 +19,7 @@ function Faq() {
 
     return (
         <div>
-            <section class="text-gray-700 text-left font-GorditaRegular border-t border-gray-200 py-2 border-dashed">
+            <section class="text-gray-700 text-left font-GorditaRegular border-t border-gray-200 py-2 border-dashed ">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="text-center mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">

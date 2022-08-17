@@ -71,24 +71,10 @@ function Footer() {
 
                             </nav>
                         </div>
-                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left ">
-                            <h2 class="title-font  text-gray-900 tracking-widest text-sm mb-2 font-GorditaMedium">Address</h2>
-                            <nav class="list-none mb-10">
-                                <li>
-                                    <p class="text-gray-600 hover:text-gray-800">103, First Floor, Shri Krishna Classic</p>
-                                </li>
-                                <li>
-                                    <p class="text-gray-600 hover:text-gray-800">AB Rd, above Axis Bank</p>
-                                </li>
-                                <li>
-                                    <p class="text-gray-600 hover:text-gray-800"> in front of MG Hector Showroom,</p>
-                                </li>
-                                <li>
-                                    <p class="text-gray-600 hover:text-gray-800">Indore, Madhya Pradesh - 452010</p>
-                                </li>
+                        <div class="lg:w-1/6 md:w-1/2 w-full px-4 text-left sm:hidden lg:block md:block">
                             
 
-                            </nav>
+    
                             
                             
                         </div>

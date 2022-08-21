@@ -1,10 +1,10 @@
 import React from 'react'
 import ServicesSec from '../Components/ServicesSec'
 
-function Services() {
+function SOP() {
   return (
     <ServicesSec/>
   )
 }
 
-export default Services
+export default SOP

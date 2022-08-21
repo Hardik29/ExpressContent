@@ -40,7 +40,7 @@ export default function Navbar() {
   function FlyerCard({ FlyerName }) {
     return (
         
-        <a href="#" className="p-2 flex items-start rounded-lg hover:bg-gray-50">
+        <a href="#" className="p-4 flex items-start rounded-lg hover:bg-gray-50">
             <p className="text-base font-medium text-gray-900">
               Analytics
             </p>

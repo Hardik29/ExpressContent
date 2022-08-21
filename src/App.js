@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <a href="https://github.com/mertJF/tailblocks" class="rounded-full w-16 h-16 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-lg" target="_blank">
+      <a href="https://github.com/mertJF/tailblocks" class="animate-bounce rounded-full w-16 h-16 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-lg" target="_blank">
         <img src={whatsapp} class="h-16 w-16"/>
       </a>
       <Footer />

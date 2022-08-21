@@ -58,7 +58,7 @@ export default function Contacts() {
             <h1 className="py-8 font-GorditaBold">What Express Content do you want ?</h1>
             <div class="mb-6">
             <select class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary">
-              <option value="SQl">SQL</option>
+              <option value="SQl">SOP</option>
               <option value="LOR">LOR</option>
               <option value="Email">EMAIL</option>
             </select>

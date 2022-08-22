@@ -3,7 +3,7 @@ import React from 'react'
 
 function DetialsCard({ heading, body }) {
     return (
-        <details class="mb-4 bg-gray-100 rounded bg-gray-200">
+        <details class="mb-4 rounded bg-gray-200">
             <summary class="text-gray-600 font-semibold py-2 px-4">
                 {heading}
             </summary>
@@ -27,33 +27,18 @@ function Faq() {
                         </h1>
                     </div>
                     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                        <div class="w-full lg:w-1/2 px-4">
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
+                        <div class="w-full  px-4">
+                            <DetialsCard heading='Can I get documents Sample before making a decision ?'
+                                body='Yes you can get a sample document in PDF Format Just fill up the form & our SOP counselor will share the sample with you an email.'/>
+                            <DetialsCard heading='If I get documents in 3 day , will there be any compromise on Quality ?'
+                                body='Not at all . Infact , Quality is our top most priority . We assure you that we will provide document without compromising on quality .'/>
                         </div>
-                        <div class="w-full lg:w-1/2 px-4">
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
-                            <DetialsCard heading='How Long is this site live?'
-                                body='Laboris qui labore cillum culpa in sunt quis sint veniam.
-                      Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                      minim velit nostrud pariatur culpa magna in aute.'/>
+                        <div class="w-full px-4">
+                            <DetialsCard heading='How much time will it take to prepare SOP LOR ?'
+                                body='Thereafter we will improve untill you are satisfied.Rest assured , we don’t compromise on quality , we also have other package where we can draft SOP in 2,4 days .'/>
+                            <DetialsCard heading='How will you Improve my SOP ?'
+                                body='Our trained SOP writers check for vocabulary , grammar , flow , plagiarism , SOP format , etc. Later our professional editors proofread the draft multiple times before sending to domain expert counsellors to finalize your SOP . We will make sure your SOP is unique & customized to each university application . '/>
+                    
                         </div>
                     </div>
                 </div>

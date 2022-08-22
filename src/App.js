@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route exact path="/SOP" element={<SOP/>} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/ContactUs" element={<ContactUs />} />
@@ -34,7 +34,6 @@ function App() {
 }
 
 export default App;
-
 
 
 

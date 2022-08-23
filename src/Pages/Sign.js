@@ -4,7 +4,7 @@ function Sign() {
     return (
       
 
-            <div class="flex flex-col items-center justify-center font-GorditaMedium py-48 px-5">
+            <div class="flex flex-col items-center justify-center font-GorditaMedium py-24 px-5">
              
 
                 <div class="bg-white shadow rounded lg:w-1/3  md:w-1/2 w-full p-10 mt-16 card">

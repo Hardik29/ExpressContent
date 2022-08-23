@@ -4,8 +4,8 @@ import check from '../Utilites/check.svg';
 
 function Prompt({title, para}) {
   return (
-    <div class=" w-full rounded-lg group">
-      <div class="flex bg-white  sm:p-12 flex-col text-left">
+    <div class="p-2 w-full rounded-lg group">
+      <div class="flex bg-white p-8 sm:p-12 flex-col text-left">
         <div class="flex items-center mb-3">
           <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full  text-white flex-shrink-0">
             <img class='w-8 h-8 group-hover:w-12 ease-in-out duration-500 group-hover:h-12 hover:transition-transform' alt={check} src={check}></img>

@@ -3,7 +3,7 @@ import Contacts from '../Components/Contacts'
 
 function ContactUs() {
     return (
-        <div class="px-5 py-48 flex flex-wrap justify-center font-GorditaMedium">
+        <div class="px-5 py-36 flex flex-wrap justify-center font-GorditaMedium">
 
             <div class="bg-white card relative p-8 sm:p-12 shadow-lg lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden text-left">
                 <form>

@@ -5,7 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar() {
   const [goingUp, setGoingUp] = useState(true);
-  const [sideMenu, setsideMenu] = useState(false);
+  const [sideMenu, setsideMenu] = useState(true);
   const [flyer, setFlyer] = React.useState(false);
 
 
@@ -30,9 +30,6 @@ export default function Navbar() {
           to={path}
           class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 group md:p-0"
           aria-current="page"
-          onClick={() => {
-            setsideMenu(true);
-          }}
         >
           {ItemName}
           <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
@@ -44,7 +41,7 @@ export default function Navbar() {
   function FlyerCard({ FlyerName }) {
     return (
         
-        <Link  onClick={() => {setsideMenu(true);}} to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" >
+        <Link to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" >
             <p className="text-base font-medium text-gray-900">
              SOP
             </p>

@@ -22,7 +22,7 @@ function Card(){
 function About() {
   return (
     <div class="md:py-20 py-[3.5rem]">
-      <div class="relative pt-16 pb-32  md:h-[55rem] h-[23rem]">
+      <div class="relative pt-16 pb-32  md:h-[55rem] h-[20rem]">
         <img
           class="absolute top-0 w-full h-full "
           src={SOP}

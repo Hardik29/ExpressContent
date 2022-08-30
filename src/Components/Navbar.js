@@ -30,6 +30,7 @@ export default function Navbar() {
           to={path}
           class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 group md:p-0"
           aria-current="page"
+          onClick={() => {setsideMenu(!sideMenu);}}
         >
           {ItemName}
           <span className="sm:hidden md:hidden lg:block w-full h-1 transition-transform  scale-x-0 rounded-full transform group-hover:scale-x-100 bg-[#6509DB]"></span>
@@ -41,7 +42,7 @@ export default function Navbar() {
   function FlyerCard({ FlyerName }) {
     return (
         
-        <Link to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" >
+        <Link to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" onClick={() => {setsideMenu(!sideMenu);}}>
             <p className="text-base font-medium text-gray-900">
              SOP
             </p>
@@ -112,7 +113,7 @@ export default function Navbar() {
           {/* ----------menu items---------- */}
 
           <div class={` ${sideMenu ? "hidden" : ""} lg:block justify-between items-center w-full md:flex md:w-auto md:order-1 `}>
-            <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0 lg:text-xl " onMouseLeave={() => {setsideMenu(!sideMenu);}} >
+            <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0 lg:text-xl " >
             
               <Items ItemName="Home" path="/"/>
               <Items ItemName="About" path="/About"/>
@@ -172,6 +173,7 @@ export default function Navbar() {
                 <Link
                   to="/Sign"
                   class="lg:hidden block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent group md:hover:text-blue-700 md:p-0 "
+                  onClick={() => {setsideMenu(!sideMenu);}}
                 >
                   Sign In
                 </Link>

@@ -23,7 +23,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [goingUp]);
 
-  function Items({ ItemName,path }) {
+  function Items({ ItemName, path }) {
     return (
       <li>
         <Link
@@ -44,7 +44,7 @@ export default function Navbar() {
         
         <Link to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" onClick={() => {setsideMenu(!sideMenu);}}>
             <p className="text-base font-medium text-gray-900">
-             SOP
+             {FlyerName}
             </p>
           
         </Link>
@@ -156,11 +156,11 @@ export default function Navbar() {
                   >
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white sm:gap-8 sm:p-8">
-                        <FlyerCard/>
-                        <FlyerCard/>
-                        <FlyerCard/>
-                        <FlyerCard/>
-                        <FlyerCard/>
+                        <FlyerCard FlyerName="SOP"/>
+                        <FlyerCard FlyerName="Lor"/>
+                        <FlyerCard FlyerName="Emails"/>
+                        <FlyerCard FlyerName="Resume"/>
+                        <FlyerCard FlyerName="Research Proposal and Papers"/>
                       </div>
                     </div>
                   </div>

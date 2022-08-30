@@ -112,7 +112,7 @@ export default function Navbar() {
           {/* ----------menu items---------- */}
 
           <div class={` ${sideMenu ? "hidden" : ""} lg:block justify-between items-center w-full md:flex md:w-auto md:order-1 `}>
-            <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0 lg:text-xl ">
+            <ul class="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:border-0 lg:text-xl " onMouseLeave={() => {setsideMenu(!sideMenu);}} >
             
               <Items ItemName="Home" path="/"/>
               <Items ItemName="About" path="/About"/>

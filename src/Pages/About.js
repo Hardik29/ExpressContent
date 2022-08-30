@@ -8,11 +8,11 @@ function Card(){
               <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div class="px-4 py-5 flex-auto">
                   <h6 class="text-xl font-semibold">SOP</h6>
-                  <p class="mt-2 mb-4 text-slate-500 text-left">
+                  <ul class="mt-2 mb-4 text-slate-500 text-left">
                     <li>Universities in US,UK,Canada, Australia, Newzealand etc.</li>
                     <li>Undergraduate & post graduate</li>
                     <li>For PhD</li>
-                  </p>
+                  </ul>
                 </div>
               </div>
             </div> 
@@ -21,8 +21,8 @@ function Card(){
 
 function About() {
   return (
-    <div class="py-20 ">
-      <div class="relative pt-16 pb-32  lg:h-[50rem] md:h-[50rem] sm:h-[60rem]">
+    <div class="md:py-20 py-[3.5rem]">
+      <div class="relative pt-16 pb-32  md:h-[55rem] h-[23rem]">
         <img
           class="absolute top-0 w-full h-full "
           src={SOP}

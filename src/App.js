@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import SOP from './Pages/SOP';
+import LOR from './Pages/LOR';
+import Resume from './Pages/Resume';
 import whatsapp from './Utilites/icons8-whatsapp.svg';
 import About from './Pages/About';
 import ContactUs from './Pages/ContactUs';
@@ -21,6 +23,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/SOP" element={<SOP/>} />
+          <Route path="/LOR" element={<LOR />} />
+          <Route path="/Resume" element={<Resume />} />
           <Route path="/About" element={<About />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Sign" element={<Sign />} />

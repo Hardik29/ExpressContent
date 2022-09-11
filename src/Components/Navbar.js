@@ -39,10 +39,10 @@ export default function Navbar() {
     );
   }
 
-  function FlyerCard({ FlyerName }) {
+  function FlyerCard({ FlyerName,link }) {
     return (
         
-        <Link to="/SOP" className="p-4 flex items-start rounded-lg hover:bg-gray-50" onClick={() => {setsideMenu(!sideMenu);}}>
+        <Link to={link} className="p-4 flex items-start rounded-lg hover:bg-gray-50" onClick={() => {setsideMenu(!sideMenu);}}>
             <p className="text-base font-medium text-gray-900">
              {FlyerName}
             </p>
@@ -156,11 +156,10 @@ export default function Navbar() {
                   >
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white sm:gap-8 sm:p-8">
-                        <FlyerCard FlyerName="SOP"/>
-                        <FlyerCard FlyerName="Lor"/>
-                        <FlyerCard FlyerName="Emails"/>
-                        <FlyerCard FlyerName="Resume"/>
-                        <FlyerCard FlyerName="Research Proposal and Papers"/>
+                        <FlyerCard FlyerName="SOP" link="/SOP"/>
+                        <FlyerCard FlyerName="Lor" link="/LOR"/>
+                        <FlyerCard FlyerName="Emails"link="/SOP"/>
+                        <FlyerCard FlyerName="Resume" link="/Resume"/>
                       </div>
                     </div>
                   </div>
